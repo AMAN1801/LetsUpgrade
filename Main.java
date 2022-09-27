@@ -1,12 +1,13 @@
 class Main{
     public static void main(String[] args) {
         
-        int sum=0;
+        int num1=36,num2=74;
 
-        for(int i=1;i<=50;i++){
-            sum+=i;
-        }
+        num1+=num2;
+        num2=num1-num2;
+        num1-=num2;
 
-        System.out.println(sum);
+        System.out.println("First number is"+num1);
+        System.out.println("Second number is"+num2);
     }
 }
